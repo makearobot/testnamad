@@ -197,7 +197,20 @@ return {
 	"^[!/](dialoglist)$",
 	"^[!/](delcontact) (%d+)$",
 	"^[!/](whois) (%d+)$",
-	"^/(sync_gbans)$"--sync your global bans with seed
+	"^[!/](sync_gbans)$"--sync your global bans with seed
+	"^(pm) (%d+) (.*)$",
+	"^(import) (.*)$",
+	"^(unblock) (%d+)$",
+	"^(block) (%d+)$",
+	"^(markread) (on)$",
+	"^(markread) (off)$",
+	"^(setbotphoto)$",
+	"%[(photo)%]",
+	"^(contactlist)$",
+	"^(dialoglist)$",
+	"^(delcontact) (%d+)$",
+	"^(whois) (%d+)$",
+	"^(sync_gbans)$"--sync your global bans with seed
   },
   run = run,
 }
